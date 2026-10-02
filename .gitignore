@@ -2,8 +2,6 @@
 # templates (`.env.example`, `Docker/env.example/`) are committed; copy one to
 # `src/.env` / `Docker/env/` and fill it in. A file that was tracked before this
 # rule still has to be removed from the index with `git rm --cached`.
-.env
-.env.*
 !.env.example
 !Docker/env.example/.env.*
 
@@ -47,3 +45,5 @@ fineTuning/tessdata_best/
 # fineTuning/genrateData/build_dataset.py. Same category as src/ocr/results/
 # above — derived data, not a deliverable in its own right.
 fineTuning/data/
+config.bat
+node_modules
